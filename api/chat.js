@@ -45,7 +45,7 @@ export default async function handler(req, res) {
     }
 
     // Check for OpenAI API key
-    const openaiApiKey = process.env.OPENAI_API_KEY;
+    const openaiApiKey = "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";
     if (!openaiApiKey) {
       console.error('OPENAI_API_KEY is not set in environment variables');
       return res.status(500).json({ 
