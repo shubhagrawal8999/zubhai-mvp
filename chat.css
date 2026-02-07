@@ -1,1 +1,23 @@
 
+/* chat.css - Chatbot-specific styles */
+.aira-chatbot {
+    position: fixed;
+    bottom: 90px;
+    right: 24px;
+    width: 350px;
+    max-width: calc(100vw - 48px);
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.aira-chatbot.open {
+    display: flex;
+}
+
+/* Add more styles from your HTML's <style> section if needed */
